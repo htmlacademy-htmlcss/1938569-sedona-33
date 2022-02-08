@@ -1,0 +1,27 @@
+.main-welcome{
+    background-image:url(/styles/img/index-background.jpg);
+    background-repeat: no-repeat;
+    width: 1200px;
+    height: 485;
+    left: 40px;
+    top: 65px;
+}
+.main-subscribe{
+    height: 411px;
+    left: 40px;
+    right: 40px;
+    bottom: 120px;
+    background-image: url(/styles/img/background.jpg);
+    background-repeat: no-repeat;
+}
+.visually-hidden{
+    display: none;
+}
+.catalog-static{
+    background-image: url(/styles/img/catalog/catalog-background\ 1.jpg);
+    background-repeat: no-repeat;
+    width: 1200px;
+    height: 408px;
+    left: 40px;
+    top: 65px;
+}
