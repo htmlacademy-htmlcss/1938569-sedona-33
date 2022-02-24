@@ -1,0 +1,148 @@
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url("/fonts/ptsans-400.woff2") format("woff2");
+    font-display: swap;
+  }
+  
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: url("/fonts/ptsans-700.woff2") format("woff2");
+    font-display: swap;
+  }
+body{
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    background-color: #FFFFFF;
+}
+.main-welcome{
+    background-image:url('/img/index-background.jpg');
+    background-repeat: no-repeat;
+    width: 1200px;
+    height: 485;
+    left: 40px;
+    top: 65px;
+    font-family: 'PT Sans';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+}
+.main-subscribe{
+    height: 411px;
+    left: 40px;
+    right: 40px;
+    bottom: 120px;
+    background-image: url('/img/background.jpg');
+    background-repeat: no-repeat;
+}
+.visually-hidden{
+    display: none;
+}
+.catalog-static{
+    background-image: url('/img/catalog/catalog-background 1.jpg');
+    background-repeat: no-repeat;
+    width: 1200px;
+    height: 408px;
+    left: 40px;
+    top: 65px;
+}
+.reasons-title{
+    font-family: 'PT Sans';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+}
+.navigation-item{
+    font-family: 'PT Sans';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    
+}
+.footer-number{
+    font-family: 'PT Sans';
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+.main-subscribe-title{
+    font-family: 'PT Sans';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+}
+.main-search-title{
+    font-family: 'PT Sans';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+
+}
+a{
+    text-decoration: none;
+}
+.catalog-title{
+    font-family: 'PT Sans';
+    font-weight: 700, bold;
+    font-size: 60px;
+}
+.catalog-result-title{
+    font-family: 'PT Sans';
+    font-weight: 700;
+    font-size: 30px;
+}
+.main-search-button{
+    background-color: #756257;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+.subscribe-button{
+    background-color: #83B3D3;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+.want-here-btn{
+    background-color: #756257;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+.submit-filter{
+    background-color: #83B3D3;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+.hotel-description-button{
+    background-color: #756257;
+    color:#FFFFFF;
+    text-transform: uppercase;
+}
+.hotel-add-to-fav{
+    background-color: #83B3D3;
+    color:#FFFFFF;
+    text-transform: uppercase;
+}
+.hotel-added-to-fav{
+    background-color: #7DB54F;
+    color:#FFFFFF;
+    text-transform: uppercase;
+}
+.page-number{
+    background-color: #83B3D3;
+    color:#FFFFFF;
+}
+.current-page-number{
+    background-color: #F2F2F2;
+    color:  #000000;
+    
+
+}
