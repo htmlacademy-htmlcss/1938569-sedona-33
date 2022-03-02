@@ -1,16 +1,16 @@
-@font-face {
+@font-face{
     font-family: "PT Sans";
     font-style: normal;
     font-weight: 400;
-    src: url("/fonts/ptsans-400.woff2") format("woff2");
+    src: url("../fonts/ptsans-400.woff2") format("woff2");
     font-display: swap;
   }
   
-@font-face {
+@font-face{
     font-family: "PT Sans";
     font-style: normal;
     font-weight: 700;
-    src: url("/fonts/ptsans-700.woff2") format("woff2");
+    src: url("../fonts/ptsans-700.woff2") format("woff2");
     font-display: swap;
   }
 body{
@@ -21,12 +21,11 @@ body{
     background-color: #FFFFFF;
 }
 .main-welcome{
-    background-image:url('/img/index-background.jpg');
+    background-image:url('../img/index-background.jpg');
+    background-size: cover;
     background-repeat: no-repeat;
-    width: 1200px;
-    height: 485;
-    left: 40px;
-    top: 65px;
+    width: 100%;
+    margin: 0 auto;
     font-family: 'PT Sans';
     font-weight: 700;
     font-size: 30px;
@@ -38,15 +37,16 @@ body{
     left: 40px;
     right: 40px;
     bottom: 120px;
-    background-image: url('/img/background.jpg');
+    background-image: url('../img/background.jpg');
     background-repeat: no-repeat;
 }
 .visually-hidden{
     display: none;
 }
 .catalog-static{
-    background-image: url('/img/catalog/catalog-background 1.jpg');
+    background-image: url('../img/catalog/catalog-background 1.jpg');
     background-repeat: no-repeat;
+    margin: auto;
     width: 1200px;
     height: 408px;
     left: 40px;
@@ -88,12 +88,12 @@ body{
     text-align: center;
 
 }
-a{
+ .page-header a{
     text-decoration: none;
 }
 .catalog-title{
     font-family: 'PT Sans';
-    font-weight: 700, bold;
+    font-weight: 700;
     font-size: 60px;
 }
 .catalog-result-title{
@@ -139,10 +139,12 @@ a{
 .page-number{
     background-color: #83B3D3;
     color:#FFFFFF;
+    border: 5px solid #83B3D3;
+    border-radius: 4px;
 }
 .current-page-number{
     background-color: #F2F2F2;
     color:  #000000;
-    
-
+    border: 5px solid #f2f2f2;
+    border-radius: 4px;
 }
